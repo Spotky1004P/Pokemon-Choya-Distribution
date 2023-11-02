@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/Launcher_Comm/Pokemon-Choya/Pokemon-Choya-Distribution/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Pokemon CHOYA 모드팩",
+    "description": "서버에 접속하기 위해 필요한 모드가 모두 갖춰져있는 모드팩입니다!",
+    "icon": "https://cdn.discordapp.com/avatars/1169680648856940684/22db9837d43415d18713fd663a18c29f.png?size=256",
+    "address": "choyapixelmon.mcv.kr",
+    "discord": {
+      "shortId": "Pokemon CHOYA 서버 | 1.16.5",
+      "largeImageText": "Pokemon CHOYA 서버",
+      "largeImageKey": "icon"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "36.2.39"
+  },
+  "untrackedFiles": []
+}

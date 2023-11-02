@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///D:/Launcher_Comm/Pokemon-Choya/Pokemon-Choya-Distribution/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "<LINK TO RSS FEED>",
+    "discord": {
+      "clientId": "1169680648856940684",
+      "smallImageText": "Pokemon CHOYA 서버",
+      "smallImageKey": "icon"
+    }
+  }
+}

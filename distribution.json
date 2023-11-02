@@ -1,0 +1,1132 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "1169680648856940684",
+    "smallImageText": "Pokemon CHOYA 서버",
+    "smallImageKey": "icon"
+  },
+  "servers": [
+    {
+      "id": "pokemon-choya-1.16.5",
+      "name": "Pokemon CHOYA 모드팩",
+      "description": "서버에 접속하기 위해 필요한 모드가 모두 갖춰져있는 모드팩입니다!",
+      "icon": "https://cdn.discordapp.com/avatars/1169680648856940684/22db9837d43415d18713fd663a18c29f.png?size=256",
+      "version": "1.0.0",
+      "address": "choyapixelmon.mcv.kr",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "Pokemon CHOYA 서버 | 1.16.5",
+        "largeImageText": "Pokemon CHOYA 서버",
+        "largeImageKey": "icon"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.39",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 212574,
+            "MD5": "4afee0135f47547182faa2ea88efebac",
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.5-36.2.39",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 13577,
+                "MD5": "2090bfafdec72f885ddf95300bd96714",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/versions/1.16.5-forge-36.2.39/1.16.5-forge-36.2.39.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.39:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 2504067,
+                "MD5": "3337e44edf13c5759548623b5866b967",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.39:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4216473,
+                "MD5": "253bbbe4aa8a7752615ea759fa178c80",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 11352644,
+                "MD5": "bfc1e0eeaee78dee942c6ea5b13e0878",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121790,
+                "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72641,
+                "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52662,
+                "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 84679,
+                "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34257,
+                "MD5": "f0e82941173b6049c03e8214ace70ecd",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.thomas7520.bubbleschat:comicsbubbleschat:${version}@jar",
+          "name": "Comics Bubbles Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54959,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/[1.16.5]+ComicsBubblesChat-1.3.0%20(1).jar",
+            "MD5": "510c65fdd0f1eabb0f7cd552ec71dd3e"
+          }
+        },
+        {
+          "id": "com.minecraftabnormals.abnormals_core.core:abnormals_core:3.3.1@jar",
+          "name": "Abnormals Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 975979,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/abnormals_core-1.16.5-3.3.1.jar",
+            "MD5": "0c91b63a7f5863a10c2f1dfd7bf604af"
+          }
+        },
+        {
+          "id": "com.supermartijn642:additionallanterns:1.0.5@jar",
+          "name": "Additional Lanterns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1706440,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/additionallanterns-1.0.5-forge-mc1.16.jar",
+            "MD5": "b5162b20120bfbab0275a83421335613"
+          }
+        },
+        {
+          "id": "team.creative:ambientsounds:3.0.3@jar",
+          "name": "Ambient Sounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76505060,
+            "url": "https://cdn.modrinth.com/data/fM515JnW/versions/3.1.9/AmbientSounds_v3.1.9_mc1.16.5.jar",
+            "MD5": "b4b629537fd27f626e90f6b832ec7f68"
+          }
+        },
+        {
+          "id": "xyz.apex.forge.apexcore.core:apexcore:1.10.0@jar",
+          "name": "ApexCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 763235,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/apexcore-1.16.5-1.10.0.jar",
+            "MD5": "7e7ada833ee9fea06f5d05699f227fed"
+          }
+        },
+        {
+          "id": "me.shedaniel:architectury:1.32.68@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 551889,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/architectury-1.32.68.jar",
+            "MD5": "74a431a4f1a32ec5bbb4bfeb120887c6"
+          }
+        },
+        {
+          "id": "moe.plushie.armourers_workshop.init.platform:armourers_workshop:2.0.0-beta.31@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3417044,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/armourersworkshop-forge-1.16.5-2.0.0-beta.31.jar",
+            "MD5": "80d6047e3d90f436bf66bdf2ff1ce452"
+          }
+        },
+        {
+          "id": "dev.wuffs:bambooeverything:1.0.1@jar",
+          "name": "Bamboo Everything",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 68275,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/bambooeverything-1.16.5-1.0.1-forge.jar",
+            "MD5": "7ab0b18add20500520cc8cae547770b5"
+          }
+        },
+        {
+          "id": "fuzs.betteranimationscollection:betteranimationscollection:1.2.4@jar",
+          "name": "Better Animations Collection",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181211,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar",
+            "MD5": "22e0e952a15fed3cebb3cf5399c3fca5"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:1.16.5-13.1.0.488@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3651046,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/BiomesOPlenty-1.16.5-13.1.0.488-universal.jar",
+            "MD5": "de3c185d84131c22377464515cd015e4"
+          }
+        },
+        {
+          "id": "com.barion:block_variants:2.7@jar",
+          "name": "Block Variants",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1046229,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/block_variants-1.16.5-2.7.jar",
+            "MD5": "dd8c7dd09b800bed7da2f107f473d022"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:10.4.33@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 317032,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/Bookshelf-Forge-1.16.5-10.4.33.jar",
+            "MD5": "9f5a57a605dafdd21e48b55fa0aa4fc4"
+          }
+        },
+        {
+          "id": "ejektaflex.bountiful:bountiful:1.16.4-3.3.1@jar",
+          "name": "Bountiful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 331082,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/Bountiful-1.16.4-3.3.1.jar",
+            "MD5": "be73b7e69ffec060b5724d5a167b9b5e"
+          }
+        },
+        {
+          "id": "com.mistrx:buildpaste:1.6.4@jar",
+          "name": "BuildPaste Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 114694,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/BuildPasteMod-1.16v1.7.1.jar",
+            "MD5": "99e2833a0e5a332d9d4220be48379eaa"
+          }
+        },
+        {
+          "id": "corgiaoc.byg.entrypoint:byg:1.3.4@jar",
+          "name": "Oh The Biomes You'll Go",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10160667,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/byg-1.3.6%20(1).jar",
+            "MD5": "1760023396424bf3ae3b0cdf50c85f8f"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:catalogue:1.6.1@jar",
+          "name": "Catalogue",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 97637,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/catalogue-1.6.1-1.16.5%20(1).jar",
+            "MD5": "a54e53cbfb8c8b87b79b3dc4a7f59305"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre22@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1816207,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/cfm-7.0.0pre22-1.16.3.jar",
+            "MD5": "24bcdebbde7281386f3b07f5ddc362c2"
+          }
+        },
+        {
+          "id": "com.nick:chimes:${1.0.0}@jar",
+          "name": "Chimes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8472796,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/Chimes-1.0.0-1.16.5.jar",
+            "MD5": "c63121aabf60a5c4a5167f928fe9c096"
+          }
+        },
+        {
+          "id": "com.chunksending:chunksending:1.16.5-2.5@jar",
+          "name": "Chunksending mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13027,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/chunksending-1.16.5-2.5.jar",
+            "MD5": "dd9dafc89a6793ae6ef59116078e4162"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth-config:4.17.101@jar",
+          "name": "Cloth Config v4 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1452545,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/cloth-config-4.17.101-forge.jar",
+            "MD5": "5cedc05e7502ce5f46067f28eb1798e2"
+          }
+        },
+        {
+          "id": "net.mcreator.clutteredmod:luphieclutteredmod:2.0@jar",
+          "name": "Cluttered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5512104,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/Cluttered-2.0-1.16.5.jar",
+            "MD5": "b9418b91518a344f80b406b46b2fef30"
+          }
+        },
+        {
+          "id": "com.lilypuree:connectiblechains:1.2.0@jar",
+          "name": "Connectible Chains",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 136540,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/connectiblechains-1.2.0.jar",
+            "MD5": "e456ddb56791ddc26aa937a0c39e069f"
+          }
+        },
+        {
+          "id": "com.connectivity:connectivity:2.4-1.16.5@jar",
+          "name": "Connectivity Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 53113,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/connectivity-2.4-1.16.5.jar",
+            "MD5": "1991b06777e738e93a904fd3525bde4e"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.0.0@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 631207,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/CreativeCore_v2.2.1_mc1.16.5%20(1).jar",
+            "MD5": "c32d3e1df267d820eb2b1b8e8adb75e1"
+          }
+        },
+        {
+          "id": "net.ncpbails:culturaldelights:0.9.2@jar",
+          "name": "Cultural Delights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 264544,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/culturaldelights-1.16.5-0.9.2.jar",
+            "MD5": "64204f89b5f6503cc2bd00e47d743f43"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.16.5.20220515@jar",
+          "name": "Custom NPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12457390,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/CustomNPCs-1.16.5.20220515%20(1).jar",
+            "MD5": "9d204b1c5dd8cdbe9737fbdc761f33d9"
+          }
+        },
+        {
+          "id": "dareharu.haru:haru:0.45.0@jar",
+          "name": "Haru Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2538877,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/DareHaruDareHaru-0.45.0-final%20(1).jar",
+            "MD5": "26c2de4a80165914e894248589b0bbdf"
+          }
+        },
+        {
+          "id": "chappie.displaycase:display_case:1.16.5-0.1@jar",
+          "name": "DisplayCase Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37542,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/DisplayCase-1.16.5-0.2.jar",
+            "MD5": "aa7c8111a79ccdd648d393a60c5859c4"
+          }
+        },
+        {
+          "id": "org.orecruncher:dsurround:4.0.5.0@jar",
+          "name": "§3Dynamic Surroundings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14746751,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/DynamicSurroundings-1.16.5-4.0.5.0%20(1).jar",
+            "MD5": "047b3dc132f9e591104af6a63c2ac2e3"
+          }
+        },
+        {
+          "id": "xyz.vsngamer:elevatorid:1.16.5-1.7.13@jar",
+          "name": "Elevator Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 183750,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/elevatorid-1.16.5-1.7.13.jar",
+            "MD5": "0eb349656093c5c3cd260ec5aa425193"
+          }
+        },
+        {
+          "id": "net.darkhax:enchdesc:7.1.20@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 59296,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/EnchantmentDescriptions-1.16.5-7.1.20.jar",
+            "MD5": "ef42a46d519c1009ae6ef581541a3592"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.5.2@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46532,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/entityculling-forge-mc1.16.5-1.5.2%20(1).jar",
+            "MD5": "8696ac24f0d209aadaf754bed9c2e1f6"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:equipmentcompare:1.3.2@jar",
+          "name": "Equipment Compare",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30109,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/EquipmentCompare-1.16.5-1.3.2.jar",
+            "MD5": "e53ff6ccc15f022864af22c0dfa4d169"
+          }
+        },
+        {
+          "id": "de.cheaterpaul:fallingleaves:1.2.4-alpha+20220121-1744@jar",
+          "name": "Falling Leaves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 114119,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/Fallingleaves-1.16.3-1.2.4%20(1).jar",
+            "MD5": "27665a8c7adc890687e3a7a0b767c7bb"
+          }
+        },
+        {
+          "id": "xyz.apex:fantasyfurniture:2.0.2@jar",
+          "name": "Fantasy's Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1167596,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/fantasyfurniture-1.16.5-2.0.2.jar",
+            "MD5": "b4b7995c32f99d9a1e92f7bbbfe830d0"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.16.5-0.6.0@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2565217,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/FarmersDelight-1.16.5-0.6.0.jar",
+            "MD5": "9614adb0fe0607d00fad43b773b5434c"
+          }
+        },
+        {
+          "id": "com.umpaz:farmersrespite:1.16.5-1.1@jar",
+          "name": "Farmer's Respite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 319948,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/farmersrespite-1.16.5-1.1.jar",
+            "MD5": "e3798ae2f1917783db2d3b7bbc0198bb"
+          }
+        },
+        {
+          "id": "shadows.fastfurnace:fastfurnace:4.5.0@jar",
+          "name": "FastFurnace",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5907,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/FastFurnace-1.16.5-4.5.0%20(1).jar",
+            "MD5": "2474fd55475a370f97f162552db9a669"
+          }
+        },
+        {
+          "id": "me.clumsycat:furnitureexpanded:1.16-1.0.0@jar",
+          "name": "Furniture Expanded",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 191386,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/furnitureexpanded-1.16.5-1.0.0%20(4).jar",
+            "MD5": "c8d3a0f11542fcf238507999beb353a7"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:glasscutter:1.1.1@jar",
+          "name": "Glasscutter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 691035,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/glasscutter-1.1.1-1.16.5.jar",
+            "MD5": "a7cdac29f57bc9e229c715f002208b5f"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.0.45@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61577,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/Iceberg-1.16.5-1.0.45.jar",
+            "MD5": "ec502208377ca481a2e551b99e4cb050"
+          }
+        },
+        {
+          "id": "ironfurnaces:ironfurnaces:2.7.7@jar",
+          "name": "Iron Furnaces",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 469099,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/ironfurnaces-1.16.5-2.7.7%20(1).jar",
+            "MD5": "dc2d16639e04afdcf37510dfad5c87d5"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.8.0.1009@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 839446,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/jei-1.16.5-7.8.0.1009%20(2).jar",
+            "MD5": "6c7827e443f483cc5e94aaff7c694901"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.8.5p6@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6693593,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/journeymap-1.16.5-5.8.5p6%20(1).jar",
+            "MD5": "398f1e0c23efec7b5ed317ba0e80a7c7"
+          }
+        },
+        {
+          "id": "thedarkcolour.kotlinforforge:kotlinforforge:1.16.0@jar",
+          "name": "Kotlin for Forge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6754655,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/kotlinforforge-1.17.0-obf%20(1).jar",
+            "MD5": "7671b34c5268409692e09e8da69fceb6"
+          }
+        },
+        {
+          "id": "com.limitedchunks:limitedchunks:1.8@jar",
+          "name": "Limited chunk loading mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15629,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/limitedchunks-2.1.jar",
+            "MD5": "c881beb8f80860ea3536625e4330139f"
+          }
+        },
+        {
+          "id": "com.mcwbridges.kikoz:mcwbridges:2.1.0@jar",
+          "name": "Macaw's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 623188,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/mcw-bridges-2.1.0-mc1.16.5forge.jar",
+            "MD5": "613035d3f8e8425b9857b58364889078"
+          }
+        },
+        {
+          "id": "com.mcwdoors.kikoz:mcwdoors:1.0.9@jar",
+          "name": "Macaw's Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 940806,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/mcw-doors-1.0.9forge-mc1.16.5.jar",
+            "MD5": "ed60ed3992d8d58b1c7605017174abb1"
+          }
+        },
+        {
+          "id": "com.mcwroofs.kikoz:mcwroofs:2.2.4@jar",
+          "name": "Macaw's Roofs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1604976,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/mcw-roofs-2.2.4-mc1.16.5forge.jar",
+            "MD5": "1333ad44361748aadc69bc82dc215907"
+          }
+        },
+        {
+          "id": "com.mcwtrpdoors.kikoz:mcwtrpdoors:1.1.1@jar",
+          "name": "Macaw's Trapdoors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 530948,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/mcw-trapdoors-1.1.1-mc1.16.5forge.jar",
+            "MD5": "040e16bfab27b1eb5beb005ed9608155"
+          }
+        },
+        {
+          "id": "com.mcwwindows.kikoz:mcwwindows:2.1.1@jar",
+          "name": "Macaw's Windows",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 776145,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/mcw-windows-2.1.1-mc1.16.5forge.jar",
+            "MD5": "72a964e169bf206fadcc6cc79ab0663d"
+          }
+        },
+        {
+          "id": "com.umpaz.nethers_delight.core:nethers_delight:2.1@jar",
+          "name": "Nethers Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 283157,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/nethers_delight-2.1.jar",
+            "MD5": "56ca5424bab9882d9b5e1c114352ddad"
+          }
+        },
+        {
+          "id": "fudge.notenoughcrashes:notenoughcrashes:4.1.4+1.16.5@jar",
+          "name": "Not Enough Crashes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 178345,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/notenoughcrashes-4.1.4+1.16.5-forge%20(1).jar",
+            "MD5": "cd515cc366e4e3a70abcacaf1feeac2d"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
+          "name": "Obfuscate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 142536,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/obfuscate-0.6.3-1.16.5.jar",
+            "MD5": "514fe4c6c39bc1b7e474d813daab593e"
+          }
+        },
+        {
+          "id": "com.unlikepaladin:pfm:1.1.1@jar",
+          "name": "Paladin's Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4263684,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/paladin-furniture-mod-1.1.1-forge-mc1.16.5-patched.jar",
+            "MD5": "1f2d9a68f16f8ebe7b972ba0e3e85afc"
+          }
+        },
+        {
+          "id": "subaraki.pga.mod:publicguiannouncement:1.1.0.1@jar",
+          "name": "Public GUI Announcement",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 813106,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/PGA-1.16.4-1.1.2.1.jar",
+            "MD5": "ebd91d30bd23410ef56b49066a0c3650"
+          }
+        },
+        {
+          "id": "com.fuzs:pickupnotifier:1.2@jar",
+          "name": "Pick Up Notifier",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 42604,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/PickUpNotifier-v1.2-1.16.3.jar",
+            "MD5": "b2741eb4d8be4c91ba55fe00e7b7717a"
+          }
+        },
+        {
+          "id": "com.pixelmonmod:pixelmon:9.1.7@jar",
+          "name": "Pixelmon Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 401153087,
+            "url": "https://cdn.modrinth.com/data/59ZceYlU/versions/pQsLSLPU/Pixelmon-1.16.5-9.1.7-universal.jar",
+            "MD5": "bec28c84eb9694ea42a64936989addb4"
+          }
+        },
+        {
+          "id": "bletch.pixelmoninformation:pixelmoninformation:2.3.0@jar",
+          "name": "Pixelmon Information",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 250074,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/PixelmonInformation-1.16.5-9.0.11-2.3.0.jar",
+            "MD5": "b8b3bc75390f685041c7b2c05810c7bd"
+          }
+        },
+        {
+          "id": "com.strangeone101:pixeltweaks:1.9.2@jar",
+          "name": "PixelTweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2369100,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/PixelTweaks-1.9.2.jar",
+            "MD5": "9bf5755271682af8616e7410082d72f6"
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:4.7.1@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 174158,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/Placebo-1.16.5-4.7.1%20(1).jar",
+            "MD5": "b9436888ceffed9622ce58e0d71f8fd2"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:r29-1.16.4@jar",
+          "name": "Presence Footsteps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7072989,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/presencefootsteps-r29-1.16.4.jar",
+            "MD5": "b2343bc8ceb93f13764f802d9aea9ed9"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib:puzzleslib:1.0.15@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 383853,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/PuzzlesLib-v1.0.15-1.16.5-Forge.jar",
+            "MD5": "cd15438ee5217328af6473cad6425ab5"
+          }
+        },
+        {
+          "id": "com.flanks255:simplylight:1.16.5-1.4.2-build.32@jar",
+          "name": "Simply Light",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 517344,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/simplylight-1.16.5-1.4.2-build.32.jar",
+            "MD5": "71fa70eb1e87315c087fa16c2407a062"
+          }
+        },
+        {
+          "id": "io.github.ultimateboomer:smoothboot:1.16.4-1.2.2@jar",
+          "name": "Smooth Boot",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 84744,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/smoothboot-forge-1.16.4-1.2.2.jar",
+            "MD5": "104ca76ce6b18b90fbfa4c58b3bbdfc2"
+          }
+        },
+        {
+          "id": "com.smoothchunk:smoothchunk:2.0@jar",
+          "name": "Smoothchunk mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14157,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/smoothchunk1.16.5-2.0%20(1).jar",
+            "MD5": "42a45cfea269961a3044c9b0ac834626"
+          }
+        },
+        {
+          "id": "com.tmtravlr:soundfilters:0.14_for_1.16.2@jar",
+          "name": "Sound Filters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 42485,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/SoundFilters-0.14_for_1.16.2.jar",
+            "MD5": "e0c0227ddad69a11fd3eef11acb5b1f6"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.10@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 480209,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/supermartijn642corelib-1.1.10-forge-mc1.16.jar",
+            "MD5": "18b7d1d96a72cda44eb2bca0e652bc08"
+          }
+        },
+        {
+          "id": "org.villainy:sweetconcrete:1.16.3-1.7.2@jar",
+          "name": "Sweet Concrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 623003,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/sweetconcrete-1.16.5-1.7.2.jar",
+            "MD5": "a80c4a4a4a5ce65abe51aafda6bb82ff"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:travelerstitles:1.16.4-1.5@jar",
+          "name": "Traveler's Titles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28518,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/TravelersTitles-1.16.4-1.5%20(1).jar",
+            "MD5": "696adf412b8e82a9a2477ad2ac91d72d"
+          }
+        },
+        {
+          "id": "info.u_team.u_team_core:uteamcore:3.2.1.258@jar",
+          "name": "U Team Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398201,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/u_team_core-1.16.5-3.2.1.258.jar",
+            "MD5": "95d960974f901c851e73c6763b42efd5"
+          }
+        },
+        {
+          "id": "info.u_team.useful_backpacks:usefulbackpacks:1.12.1.103@jar",
+          "name": "Useful Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 167996,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/useful_backpacks-1.16.5-1.12.1.103.jar",
+            "MD5": "b6d5dde03d67b89a10235436359e8b75"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:vehicle:0.45.2@jar",
+          "name": "MrCrayfish's Vehicle Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3397300,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/vehicle-mod-0.45.2-1.16.3%20(1).jar",
+            "MD5": "c2ef69e5bfe25bb9deb11a9b38297fdb"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.16.5-2.4.24@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7644298,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/voicechat-forge-1.16.5-2.4.24.jar",
+            "MD5": "3c89b2a6628146d08abbfcfb452b015a"
+          }
+        },
+        {
+          "id": "xerca.xercapaint:xercapaint:1.16.5-2.1@jar",
+          "name": "Joy of Painting",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 383756,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/xercapaint-1.16.5-2.1.jar",
+            "MD5": "15262fa53d75da448482af121fb39bd6"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.16.4-Forge-13@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 106058,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/forgemods/required/YungsApi-1.16.4-Forge-13%20(1).jar",
+            "MD5": "d9bb57c12da921556bfd981c37f9a49a"
+          }
+        },
+        {
+          "id": "generated.library:OptiFine_1.16.5_HD_U_G8_MOD:0.0.0@jar",
+          "name": "OptiFine_1.16.5_HD_U_G8_MOD",
+          "type": "Library",
+          "artifact": {
+            "size": 5520538,
+            "url": "https://github.com/Spotky1004P/Pokemon-Choya-Distribution/raw/main/servers/pokemon-choya-1.16.5/libraries/OptiFine_1.16.5_HD_U_G8_MOD.jar",
+            "MD5": "ae06aa9e4841988ec2b17c5856cf82db"
+          }
+        }
+      ]
+    }
+  ]
+}
